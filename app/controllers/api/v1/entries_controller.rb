@@ -8,6 +8,6 @@ class Api::V1::EntriesController < ApplicationController
     private 
 
     def entry_params
-      params.permit(:name, :location, :beers, :notes, :user_id)
+      params.require(:entry).permit(:name, :location, :beers, :notes, :user_id)
     end
 end
