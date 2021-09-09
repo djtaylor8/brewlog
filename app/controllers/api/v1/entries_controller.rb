@@ -1,5 +1,5 @@
 class Api::V1::EntriesController < ApplicationController
-    before_action :set_task, only: [:update, :destroy]
+    before_action :set_entry, only: [:update, :destroy]
     
     def index
       entries = Entry.all 
