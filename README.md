@@ -1,24 +1,26 @@
-# README
+ # Brew Log - Single Page Application with Javascript and Rails
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This app is built using vanilla Javascript on the frontend and a Rails API as the backend. With the help of the Mapbox API, users can search breweries and create entries based on their experiences.
 
-Things you may want to cover:
+### Installing
 
-* Ruby version
+Make sure you have Ruby and Rails installed on your device, as well as PostgreSQL.
 
-* System dependencies
+Clone the backend repo [here](https://github.com/djtaylor8/brewlog_backend) and run ```bundle install```. 
 
-* Configuration
+Create the database and run migrations by running ```rails db:create``` and ```rails db:migrate```. While not necessary, you can also run ```rails db:seed``` to see basic seed data in the app. Finally, start the server by running ```rails s```.
 
-* Database creation
+After cloning this frontend repo, cd into it and run ```open index.html``` in the terminal to view the page in your browser.
 
-* Database initialization
 
-* How to run the test suite
+## Contributing
 
-* Services (job queues, cache servers, search engines, etc.)
+Bug reports and pull requests are welcome on GitHub at https://github.com/djtaylor8/brewlog-frontend. 
 
-* Deployment instructions
+## Authors
 
-* ...
+* **DJ Taylor** (https://github.com/djtaylor8)
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
