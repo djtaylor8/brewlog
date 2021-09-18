@@ -18,7 +18,6 @@ ActiveRecord::Schema.define(version: 2021_09_04_175642) do
   create_table "entries", force: :cascade do |t|
     t.text "name"
     t.text "location"
-    t.text "beers"
     t.text "notes"
     t.integer "user_id"
     t.datetime "created_at", precision: 6, null: false
